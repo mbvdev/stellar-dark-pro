@@ -1,0 +1,33 @@
+{
+  "name": "stellar-dark-pro",
+  "displayName": "Stellar Dark Pro",
+  "description": "A modern dark theme inspired by GitHub Dark and custom colors.",
+  "version": "1.1.2",
+  "publisher": "mbv-dev",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbvdev/stellar-dark-pro.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Stellar Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stellar-dark-pro-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "prettier.printWidth": 120,
+      "prettier.proseWrap": "never",
+      "prettier.semi": true,
+      "prettier.trailingComma": "none"
+    }
+  }
+}
