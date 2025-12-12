@@ -2,7 +2,7 @@
   "name": "stellar-dark-pro",
   "displayName": "Stellar Dark Pro",
   "description": "A modern dark theme inspired by GitHub Dark and custom colors.",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "publisher": "mbv-dev",
   "engines": {
     "vscode": "^1.60.0"
